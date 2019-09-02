@@ -38,14 +38,6 @@ CREATE TABLE `address` (
 -- Dumping data for table `address`
 --
 
-INSERT INTO `address` (`address_id`, `country`, `city`, `province`, `city_location`) VALUES
-('amayendesa', 'zimbabwe', 'harare', 'harare', ''),
-('bmay', 'zimbabwe', 'harare', 'harare', ''),
-('chix', 'zimbabwe', 'chinhoyi', 'MashWest', ''),
-('kmay', 'zimbabwe', 'harare', 'harare', ''),
-('pzunza', 'zimbabwe', 'chinhoyi', 'MashWest', 'ColdStream'),
-('tawaz', 'zimbabwe', 'harare', 'harare', 'waterfalls');
-
 -- --------------------------------------------------------
 
 --
@@ -64,24 +56,6 @@ CREATE TABLE `likes` (
 -- Dumping data for table `likes`
 --
 
-INSERT INTO `likes` (`time`, `like_id`, `person_id`, `song_id`, `tag`) VALUES
-('2017-10-06 10:05:43', 86, 'pzunza', 17, 'r'),
-('2017-10-06 10:05:43', 87, 'pzunza', 16, 'r'),
-('2017-10-06 10:05:43', 88, 'pzunza', 14, 'r'),
-('2017-10-06 10:05:43', 89, 'pzunza', 12, 'r'),
-('2017-10-06 10:05:43', 90, 'pzunza', 11, 'r'),
-('2017-10-06 10:11:54', 91, 'kmay', 16, 'r'),
-('2017-10-06 10:11:54', 92, 'kmay', 14, 'r'),
-('2017-10-06 10:11:54', 93, 'kmay', 11, 'r'),
-('2017-10-06 10:11:54', 94, 'kmay', 7, 'r'),
-('2017-10-06 10:11:54', 95, 'kmay', 6, 'r'),
-('2017-10-06 10:15:52', 102, 'amayendesa', 17, 'nr'),
-('2017-10-06 10:15:52', 103, 'amayendesa', 16, 'nr'),
-('2017-10-06 10:15:52', 104, 'amayendesa', 7, 'nr'),
-('2017-10-06 10:15:52', 105, 'amayendesa', 6, 'nr'),
-('2017-10-06 10:15:52', 106, 'amayendesa', 5, 'nr'),
-('2017-10-06 10:15:52', 107, 'amayendesa', 3, 'r'),
-('2017-10-06 10:15:52', 108, 'amayendesa', 2, 'nr');
 
 -- --------------------------------------------------------
 
@@ -97,13 +71,6 @@ CREATE TABLE `log` (
 --
 -- Dumping data for table `log`
 --
-
-INSERT INTO `log` (`username`, `date`) VALUES
-('amayendesa', '2017-10-15'),
-('bmay', '2017-10-15'),
-('chix', '2017-10-15'),
-('pzunza', '2017-10-15'),
-('tawaz', '2017-10-16');
 
 -- --------------------------------------------------------
 
@@ -141,13 +108,6 @@ CREATE TABLE `person` (
 -- Dumping data for table `person`
 --
 
-INSERT INTO `person` (`person_id`, `name`, `surname`, `username`, `gender`, `cell`, `dob`, `password`, `address_id`, `hobbie1`, `hobbie2`, `hobbie3`) VALUES
-(23, 'aaron', 'mayendesa', 'amayendesa', 'male', '0776824461', '0000-00-00', 'aaron', 56, '', '', ''),
-(24, 'bygrage', 'mayendesa', 'bmay', 'male', '077868655', '0000-00-00', 'bmay', 56, '', '', ''),
-(25, 'patson', 'zunza', 'pzunza', 'male', '077868655', '0000-00-00', 'pzunza', 56, '', '', ''),
-(26, 'albert', 'chisoro', 'chix', 'male', '077868655', '0000-00-00', 'chix', 56, '', '', ''),
-(27, 'kimberley', 'mayendesa', 'kmay', 'female', '0776456376', '1996-06-28', 'kmay', 56, 'hockey', '', ''),
-(31, 'tawanda', 'nyahuye', 'tawaz', 'male', '0776456376', '2017-10-11', 'tawaz', 56, '', '', '');
 
 -- --------------------------------------------------------
 
@@ -165,25 +125,6 @@ CREATE TABLE `post` (
 --
 -- Dumping data for table `post`
 --
-
-INSERT INTO `post` (`post_id`, `username`, `post`, `time`) VALUES
-(1, 'amayendesa', 'i like football', '2017-10-03 00:00:00'),
-(2, 'pzunza', 'i''m going to watch football', '2017-10-03 00:00:00'),
-(3, 'chix', 'i hate football so much', '2017-10-03 00:00:00'),
-(4, 'amayendesa', 'i also love cricket', '2017-10-03 00:00:00'),
-(5, 'bmay', 'my name is bygrage mayendesa, a cricketer', '2017-10-03 00:00:00'),
-(6, 'chix', 'i saw cricket last night, it was boring', '2017-10-03 00:00:00'),
-(7, 'chix', 'franklin is a fool', '2017-10-03 00:00:00'),
-(8, 'amayendesa', ' i''m cool', '2017-10-03 12:16:32'),
-(9, 'amayendesa', ' yes', '2017-10-03 12:19:59'),
-(10, 'amayendesa', ' what in the world', '2017-10-03 12:38:34'),
-(11, 'amayendesa', ' hey you', '2017-10-03 13:23:13'),
-(12, 'amayendesa', ' fytrct', '2017-10-03 13:24:05'),
-(13, 'amayendesa', ' kogf', '2017-10-03 13:24:56'),
-(14, 'amayendesa', ' but why', '2017-10-03 20:43:05'),
-(15, 'amayendesa', ' my name is aaron mayendesa, 2.1', '2017-10-04 09:13:32'),
-(16, 'chix', ' me too', '2017-10-05 17:57:17'),
-(17, 'kmay', ' i''m kimberley', '2017-10-05 21:06:17');
 
 -- --------------------------------------------------------
 
