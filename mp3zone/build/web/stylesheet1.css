@@ -1,0 +1,163 @@
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.active {
+    background-color: #4CAF50;
+}
+.nav1 {
+    float: left;
+}
+
+.nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav1 a:hover {
+    background-color: #111;
+}  
+.nav1 a:visited{
+	background-color: #4CAF50;
+}
+h1{
+	text-align: center;
+	background-image:url(9.png); 
+    background-color:white ;
+    border: 6px solid #333; 
+   <!-- position: fixed;-->
+    width: 98%;
+    background-position: center;
+border-radius: 15px;
+border-bottom-right-radius: 0;
+border-bottom-left-radius: 0;
+margin-bottom: 0; }
+
+.log{
+	 border-radius: 10px;
+	border: 0 0 0 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	padding-left: 60%;
+	background-color: green;
+	font-size: 20px;
+	align-content: right;
+	overflow: hidden;
+}
+#wrap{
+	width: 1300px;
+}
+.left{
+	padding-left: 6%; 
+	width: 45%;
+	float: left;
+}
+.right{
+
+	
+	width: 45%;
+	float: right;
+}
+
+body{
+	background-color: grey ;
+	font-weight: 20px ;
+        font: bold;
+    height: 1200px;
+   <!--background-image: url(music2.jpg);-->
+}
+.bl{
+	color: black;
+	overflow: hidden;
+	font-size: 1px;
+}
+#div1{
+	 background-image: url(friend.jpg);
+}
+
+.r1{
+	 padding-left: 33%;
+}
+.r2{
+	padding-left: 44%;
+}
+
+.r{
+	padding-left: 10%;
+}
+.bl{
+	font-size: 20px;
+	padding-bottom: 0;
+}
+.bl1{
+	font-size: 17px;
+	color: orange;
+	padding-right: 30%;
+}
+.bb{
+	border-color: rgb(202,149,255);
+	margin-right: 0;
+	padding-right: 0;
+	
+}
+.bb1{
+	border-top: 0;
+	padding-top: 0;
+	padding-right: 70%;
+	border-right: 3000px;
+}
+.ph{
+	border-top: 0;
+	padding-top: 0;
+	padding-left: 60%;
+}
+.bb2{
+	padding-right: 10px;
+	margin-bottom: 30px;
+}
+.bb3{
+	padding: 0;
+	padding-bottom: 0;
+	border-bottom: 0;
+	overflow: scroll;
+	height: 300px;
+}
+#dv1{
+	width: 100%;
+	padding-right: 0;
+	margin-right: 0;
+	padding-bottom: 30px;
+}
+#dv2{
+	width: 100%;
+	padding-right: 0;
+	margin-right: 0;
+	padding-bottom: 30px;
+}
+.e{
+	font-size: 22px;
+}
+.e1{
+	padding-left: 200px;
+	font-size: 25px;
+}
+.e2{
+	padding-left: 30%;
+}
+#dc{
+   background-image: url(balloon.jpg);
+   padding-top: 10px;
+}
+.f{
+	padding-left: 72%;
+	padding-top: 3%;
+}
