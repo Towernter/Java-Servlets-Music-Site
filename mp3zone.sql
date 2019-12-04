@@ -147,10 +147,6 @@ CREATE TABLE `songs` (
 -- Dumping data for table `songs`
 --
 
-INSERT INTO `songs` (`song_id`, `name`, `size`, `song`, `artist`, `genre`, `year`, `username`) VALUES
-(8, 'your song', 7387197, 'Rita Ora - Your Song (CDQ) (Mp3Goo.com).mp3', 'rita ora', 'pop', '2017', 'chix'),
-(9, 'do you mind', 5213666, 'DJ_Khaled_feat_Nicki_Minaj_feat_Chris_Brown_feat_August_Alsina_Do_You_Mind.mp3', 'dj khaled', 'hip-hop', '--', 'chix'),
-(10, 'in my corner', 200, 'Fourplay - Elixir - 11 - In My Corner.mp3', 'fourplay', 'jazz', '1990', 'tawaz');
 
 --
 -- Indexes for dumped tables
